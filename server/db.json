@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "photoUrl": "https://via.placeholder.com/150",
+      "price": 50.00,
+      "bundleId": 1,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "photoUrl": "https://via.placeholder.com/150",
+      "price": 50.00,
+      "bundleId": 1,
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "photoUrl": "https://via.placeholder.com/150",
+      "price": 150.00,
+      "bundleId": 1,
+      "rating": 5
+    }
+  ],
+  "bundles": [
+    {
+      "id": 1,
+      "title": "Bundle 1",
+      "photoUrl": "https://ember.com/cdn/shop/files/ember_TM2312_00-black-MFI_F_hero_2048x.jpg?v=1684887922",
+      "price": 200.00,
+      "rating": 4
+    }
+  ]
+}

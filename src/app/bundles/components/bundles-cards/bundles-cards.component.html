@@ -1,0 +1,13 @@
+<div class="card-container" aria-label="The cards container">
+  @for(bundle of bundles; track bundle){
+    <mat-card>
+      <div class="card-manager" aria-label="The card manager">
+        <mat-card-content> Title: {{bundle.title}}</mat-card-content>
+        <img src="{{bundle.photoUrl}}" alt="Photo of a bundle" aria-label="The bundle image" width="200">
+        <mat-card-content> Price: {{bundle.price}} </mat-card-content>
+        <mat-card-content> Rating: {{bundle.rating}} </mat-card-content>
+        <mat-card-content> Your Save: {{getSave(bundle.id)}} </mat-card-content>
+      </div>
+    </mat-card>
+  }
+</div>

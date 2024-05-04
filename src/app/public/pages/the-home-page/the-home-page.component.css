@@ -1,0 +1,16 @@
+.the-home-page-hero{
+  background-image: url("../../../../assets/WebBanner-Desktop.png");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.the-home-page-summary{
+   text-align: center;
+   color:whitesmoke;
+   padding: 3rem;
+    background-color: black;
+}
+
+
+
